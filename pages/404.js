@@ -1,10 +1,13 @@
 import React from 'react';
+import Image from 'next/image';
 
-function NotFoundPage (props)
-{
+function NotFoundPage (props) {
 	return (
 		 <div>
-			 <h1>not found</h1>
+			 <Image
+					src={'/24.svg'}
+					alt={'picture of 404}'}
+					layout="fill"  />
 		 </div>
 	);
 }
