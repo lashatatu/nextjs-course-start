@@ -1,0 +1,17 @@
+import {useRouter} from 'next/router';
+
+function PortfolioProjectPage (props) {
+
+	const router=useRouter()
+
+	console.log(router.pathname)
+	console.log(router.query)
+
+	return (
+		 <div>
+			 <h1>placeholder</h1>
+		 </div>
+	);
+}
+
+export default PortfolioProjectPage;
